@@ -1,5 +1,40 @@
 # Changelog
 
+## [2.1.0](https://github.com/mdn/interactive-examples/compare/v2.0.0...v2.1.0) (2023-07-22)
+
+
+### Features
+
+* **ci:** 10x faster rebuild of pages ([#2458](https://github.com/mdn/interactive-examples/issues/2458)) ([2e2552d](https://github.com/mdn/interactive-examples/commit/2e2552da3399076287033e6fd7c973157fa4bf05))
+* **css:** Add example of `:modal` ([#2316](https://github.com/mdn/interactive-examples/issues/2316)) ([173563a](https://github.com/mdn/interactive-examples/commit/173563a31af80bfe9ac989f2420afa8eab2b6f4d))
+* **css:** Add example of `[@page](https://github.com/page)` ([#2216](https://github.com/mdn/interactive-examples/issues/2216)) ([10b16db](https://github.com/mdn/interactive-examples/commit/10b16dba22925a1fe16267d10b4ee91be6443801))
+* **css:** Add example of `touch-action` ([#2302](https://github.com/mdn/interactive-examples/issues/2302)) ([6dda47a](https://github.com/mdn/interactive-examples/commit/6dda47ae6770f2549bb8dba342f462612d93e2a3))
+* **html:** Add example of `exportparts` attribute ([#2224](https://github.com/mdn/interactive-examples/issues/2224)) ([49e2095](https://github.com/mdn/interactive-examples/commit/49e2095dc201465a966fdd98f49a487c71e982dc))
+* **html:** Add example of `is` global attribute ([#2234](https://github.com/mdn/interactive-examples/issues/2234)) ([ad63bb9](https://github.com/mdn/interactive-examples/commit/ad63bb9825abce77a79f7ab122b5cad483ad71a6))
+* **webapi:** Add 16 `URL` examples ([#2367](https://github.com/mdn/interactive-examples/issues/2367)) ([1d69481](https://github.com/mdn/interactive-examples/commit/1d69481229781284b699d4e7ea118b8dae218939))
+
+
+### Bug Fixes
+
+* Added closing tags to the remaining input fields ([#2494](https://github.com/mdn/interactive-examples/issues/2494)) ([b88c399](https://github.com/mdn/interactive-examples/commit/b88c3991c20ae869c430717ba82b7dce3cab0def))
+* **ci:** Fix start-watch command ([#2344](https://github.com/mdn/interactive-examples/issues/2344)) ([6343ab5](https://github.com/mdn/interactive-examples/commit/6343ab5d7c640e00b5405c48dbc50829eef469c6))
+* **CSS:** add :host, :host-context, and ::slotted selector examples ([#2560](https://github.com/mdn/interactive-examples/issues/2560)) ([72cc86c](https://github.com/mdn/interactive-examples/commit/72cc86c5e1e61b41def33dc42e031f07f4d662c6))
+* **CSS:** add small sized image for object-fit demo ([#2559](https://github.com/mdn/interactive-examples/issues/2559)) ([49ab1e1](https://github.com/mdn/interactive-examples/commit/49ab1e12cf381e93eff91045c22118ec4fb165a5))
+* **css:** Change `font-family` only when it's needed ([#2457](https://github.com/mdn/interactive-examples/issues/2457)) ([87fc49c](https://github.com/mdn/interactive-examples/commit/87fc49cc02acc0a710805ed4661159287a775943))
+* **css:** Fix `[@layer](https://github.com/layer)` example ([ebeda79](https://github.com/mdn/interactive-examples/commit/ebeda79b21d5345a7d72bb9807332e37577d32ed))
+* **css:** Fix 2 contrast issues ([#2452](https://github.com/mdn/interactive-examples/issues/2452)) ([7f7dc1d](https://github.com/mdn/interactive-examples/commit/7f7dc1d3bb9528520fa305d1c1ecb381216fc3af))
+* **css:** fix contrast of 4 css examples ([#2475](https://github.com/mdn/interactive-examples/issues/2475)) ([7845f11](https://github.com/mdn/interactive-examples/commit/7845f1106021ad1a430fc61e6782dae10c3de944))
+* **css:** fix contrast of 9 css examples ([#2469](https://github.com/mdn/interactive-examples/issues/2469)) ([f32a584](https://github.com/mdn/interactive-examples/commit/f32a584cb847b5454270afc94d906de25080bedd))
+* **css:** fix contrast of 9 CSS examples ([#2473](https://github.com/mdn/interactive-examples/issues/2473)) ([19146d0](https://github.com/mdn/interactive-examples/commit/19146d02efe6056c04ba9bfce8aa3deda99621af))
+* **css:** fix contrast of opacity example ([#2489](https://github.com/mdn/interactive-examples/issues/2489)) ([28cffa2](https://github.com/mdn/interactive-examples/commit/28cffa2e309de0fa8311c7b3cbc37ff4c1d31c76))
+* **css:** Fix CSS/[@layer](https://github.com/layer) try-it: make text-align effect visible ([#2519](https://github.com/mdn/interactive-examples/issues/2519)) ([56d74a5](https://github.com/mdn/interactive-examples/commit/56d74a59672885922e21db76123ae23ff916ab22))
+* **css:** Improve `appearance` example ([#2456](https://github.com/mdn/interactive-examples/issues/2456)) ([7b1e5a7](https://github.com/mdn/interactive-examples/commit/7b1e5a7b0d315c2bcacc3e6722720f388b30042f))
+* **css:** Improve contrast for angle ([#2437](https://github.com/mdn/interactive-examples/issues/2437)) ([685a062](https://github.com/mdn/interactive-examples/commit/685a062b857da427b7ae0322b3121e9b45535f8f))
+* **css:** Remove invalid CSS comment ([#2471](https://github.com/mdn/interactive-examples/issues/2471)) ([6401fe6](https://github.com/mdn/interactive-examples/commit/6401fe6dcab6d78b155ba5f34b971dfe6362e1b1))
+* **html:** Update attribute-autocomplete.html ([#2530](https://github.com/mdn/interactive-examples/issues/2530)) ([a5c281e](https://github.com/mdn/interactive-examples/commit/a5c281e15b188fe105bb1d732dbf2af37c78677c))
+* **js:** Fix invalid output in `RelativeTimeFormat` example ([#2502](https://github.com/mdn/interactive-examples/issues/2502)) ([76b9274](https://github.com/mdn/interactive-examples/commit/76b9274ba91252a975ff81361c62f6f50544aabe))
+* **js:** improve `array-flatmap` ([#2470](https://github.com/mdn/interactive-examples/issues/2470)) ([eaa86eb](https://github.com/mdn/interactive-examples/commit/eaa86ebee4653f590c1d09c583662896f7000f6e))
+
 ## [2.0.0](https://github.com/mdn/interactive-examples/compare/v1.0.4...v2.0.0) (2023-02-24)
 
 
